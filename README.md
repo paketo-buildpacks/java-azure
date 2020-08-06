@@ -10,7 +10,6 @@ The Paketo Azure Java Buildpack is a Cloud Native Buildpack with an order defini
 * [`paketo-buildpacks/encrypt-at-rest`](https://github.com/paketo-buildpacks/encrypt-at-rest)
 * [`paketo-buildpacks/executable-jar`](https://github.com/paketo-buildpacks/executable-jar)
 * [`paketo-buildpacks/environment-variables`](https://github.com/paketo-buildpacks/environment-variables)
-* [`paketo-buildpacks/google-stackdriver`](https://github.com/paketo-buildpacks/google-stackdriver)
 * [`paketo-buildpacks/gradle`](https://github.com/paketo-buildpacks/gradle)
 * [`paketo-buildpacks/image-labels`](https://github.com/paketo-buildpacks/image-labels)
 * [`paketo-buildpacks/jmx`](https://github.com/paketo-buildpacks/jmx)
