@@ -103,7 +103,7 @@ jobs:
                 echo "::set-output name=new-version::${NEW_VERSION}"
               env:
                 DEPENDENCY: gcr.io/paketo-buildpacks/dist-zip
-            - uses: peter-evans/create-pull-request@v3.9.1
+            - uses: peter-evans/create-pull-request@v3.9.2
               with:
                 author: ${{ secrets.JAVA_GITHUB_USERNAME }} <${{ secrets.JAVA_GITHUB_USERNAME }}@users.noreply.github.com>
                 body: Bumps [`gcr.io/paketo-buildpacks/dist-zip`](https://gcr.io/paketo-buildpacks/dist-zip) from [`${{ steps.package.outputs.old-version }}`](https://gcr.io/paketo-buildpacks/dist-zip:${{ steps.package.outputs.old-version }}) to [`${{ steps.package.outputs.new-version }}`](https://gcr.io/paketo-buildpacks/dist-zip:${{ steps.package.outputs.new-version }}).
