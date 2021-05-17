@@ -11,7 +11,7 @@ jobs:
         steps:
             - if: ${{ github.event_name != 'pull_request' || ! github.event.pull_request.head.repo.fork }}
               name: Docker login gcr.io
-              uses: docker/login-action@v1.9.0
+              uses: docker/login-action@v1
               with:
                 password: ${{ secrets.JAVA_GCLOUD_SERVICE_ACCOUNT_KEY }}
                 registry: gcr.io
@@ -103,7 +103,7 @@ jobs:
                 echo "::set-output name=new-version::${NEW_VERSION}"
               env:
                 DEPENDENCY: gcr.io/paketo-buildpacks/leiningen
-            - uses: peter-evans/create-pull-request@v3.9.1
+            - uses: peter-evans/create-pull-request@v3
               with:
                 author: ${{ secrets.JAVA_GITHUB_USERNAME }} <${{ secrets.JAVA_GITHUB_USERNAME }}@users.noreply.github.com>
                 body: Bumps [`gcr.io/paketo-buildpacks/leiningen`](https://gcr.io/paketo-buildpacks/leiningen) from [`${{ steps.package.outputs.old-version }}`](https://gcr.io/paketo-buildpacks/leiningen:${{ steps.package.outputs.old-version }}) to [`${{ steps.package.outputs.new-version }}`](https://gcr.io/paketo-buildpacks/leiningen:${{ steps.package.outputs.new-version }}).
