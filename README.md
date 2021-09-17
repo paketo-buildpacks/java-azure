@@ -3,7 +3,7 @@ The Paketo Azure Java Buildpack is a Cloud Native Buildpack with an order defini
 
 ## Included Buildpacks
 * [`paketo-buildpacks/apache-tomcat`](https://github.com/paketo-buildpacks/apache-tomcat)
-* [`paketo-buildpacks/azul-zulu`](https://github.com/paketo-buildpacks/azul-zulu)
+* [`paketo-buildpacks/microsoft-openjdk`](https://github.com/paketo-buildpacks/microsoft-openjdk)
 * [`paketo-buildpacks/azure-application-insights`](https://github.com/paketo-buildpacks/azure-application-insights)
 * [`paketo-buildpacks/ca-certificates`](https://github.com/paketo-buildpacks/ca-certificates)
 * [`paketo-buildpacks/debug`](https://github.com/paketo-buildpacks/debug)
