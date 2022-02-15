@@ -101,9 +101,19 @@ api = "0.7"
     version = "5.0.3"
 
   [[order.group]]
+    id = "paketo-buildpacks/jattach"
+    optional = true
+    version = "1.0.0"
+
+  [[order.group]]
     id = "paketo-buildpacks/azure-application-insights"
     optional = true
     version = "5.2.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/java-memory-assistant"
+    optional = true
+    version = "1.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/encrypt-at-rest"

@@ -13,6 +13,8 @@ The Paketo Azure Java Buildpack is a Cloud Native Buildpack with an order defini
 * [`paketo-buildpacks/environment-variables`](https://github.com/paketo-buildpacks/environment-variables)
 * [`paketo-buildpacks/gradle`](https://github.com/paketo-buildpacks/gradle)
 * [`paketo-buildpacks/image-labels`](https://github.com/paketo-buildpacks/image-labels)
+* [`paketo-buildpacks/jattach`](https://github.com/paketo-buildpacks/jattach)
+* [`paketo-buildpacks/java-memory-assistant`](https://github.com/paketo-buildpacks/java-memory-assistant)
 * [`paketo-buildpacks/maven`](https://github.com/paketo-buildpacks/maven)
 * [`paketo-buildpacks/procfile`](https://github.com/paketo-buildpacks/procfile)
 * [`paketo-buildpacks/sbt`](https://github.com/paketo-buildpacks/sbt)
