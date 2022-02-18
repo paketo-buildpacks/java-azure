@@ -43,32 +43,32 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/syft"
     optional = true
-    version = "1.7.0"
+    version = "1.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/leiningen"
     optional = true
-    version = "4.1.0"
+    version = "4.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/clojure-tools"
     optional = true
-    version = "2.1.0"
+    version = "2.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/gradle"
     optional = true
-    version = "6.2.0"
+    version = "6.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/maven"
     optional = true
-    version = "6.2.0"
+    version = "6.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/sbt"
     optional = true
-    version = "6.2.0"
+    version = "6.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"

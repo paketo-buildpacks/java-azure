@@ -6,22 +6,22 @@
   uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/syft:1.7.0"
+  uri = "docker://gcr.io/paketo-buildpacks/syft:1.8.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.1.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/maven:6.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/maven:6.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/sbt:6.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/sbt:6.2.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.2.0"
