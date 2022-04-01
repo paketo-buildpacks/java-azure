@@ -48,6 +48,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.3.3"
 
 [[dependencies]]
+  uri = "docker://gcr.io/paketo-buildpacks/datadog:1.0.0"
+
+[[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/java-memory-assistant:1.0.0"
 
 [[dependencies]]
