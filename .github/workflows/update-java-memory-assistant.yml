@@ -16,7 +16,7 @@ jobs:
                 password: ${{ secrets.JAVA_GCLOUD_SERVICE_ACCOUNT_KEY }}
                 registry: gcr.io
                 username: _json_key
-            - uses: actions/setup-go@v2
+            - uses: actions/setup-go@v3
               with:
                 go-version: "1.17"
             - name: Install update-package-dependency
