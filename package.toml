@@ -1,9 +1,9 @@
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.2.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.2.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/syft:1.10.1"
@@ -27,7 +27,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.2.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.3.2"
@@ -42,7 +42,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.2.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.9.0"
+  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.10.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.1.1"
