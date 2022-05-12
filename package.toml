@@ -3,40 +3,40 @@
   uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.2.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.2.3"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.2.4"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/syft:1.10.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.3.1"
+  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.3.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.4.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.4.2"
+  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.4.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/maven:6.5.1"
+  uri = "docker://gcr.io/paketo-buildpacks/maven:6.5.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/sbt:6.4.1"
+  uri = "docker://gcr.io/paketo-buildpacks/sbt:6.4.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.2.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.3.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.0.2"
+  uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.0.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/liberty:1.0.2"
+  uri = "docker://gcr.io/paketo-buildpacks/liberty:1.1.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.2.2"
