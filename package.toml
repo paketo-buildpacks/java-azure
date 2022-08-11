@@ -3,16 +3,16 @@
   uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.2.5"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.3.1"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.3.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/syft:1.16.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.3.4"
+  uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.3.5"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.4.7"
+  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.4.8"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/gradle:6.5.1"
@@ -54,7 +54,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.5.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/datadog:1.10.1"
+  uri = "docker://gcr.io/paketo-buildpacks/datadog:1.11.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/java-memory-assistant:1.0.2"
