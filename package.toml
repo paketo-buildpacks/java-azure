@@ -3,7 +3,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.4.0"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.5.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/syft:1.17.0"
@@ -15,7 +15,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.4.9"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.5.2"
+  uri = "docker://gcr.io/paketo-buildpacks/gradle:6.6.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/maven:6.6.2"
@@ -30,19 +30,19 @@
   uri = "docker://gcr.io/paketo-buildpacks/executable-jar:6.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.4.0"
+  uri = "docker://gcr.io/paketo-buildpacks/apache-tomcat:7.5.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/liberty:1.1.4"
+  uri = "docker://gcr.io/paketo-buildpacks/liberty:2.1.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.16.0"
+  uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.17.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.3.0"
@@ -54,13 +54,13 @@
   uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.6.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/datadog:1.12.0"
+  uri = "docker://gcr.io/paketo-buildpacks/datadog:2.0.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/java-memory-assistant:1.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/encrypt-at-rest:4.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/encrypt-at-rest:4.2.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.2.0"
