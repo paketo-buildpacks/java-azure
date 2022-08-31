@@ -1,6 +1,6 @@
 # `gcr.io/paketo-buildpacks/java-azure`
 
-The Paketo Azure Java Buildpack is a Cloud Native Buildpack with an order definition suitable for Java applications on Azure.
+The Paketo Buildpack for Azure Java is a Cloud Native Buildpack with an order definition suitable for Java applications on Azure.
 
 ## Included Buildpacks
 
