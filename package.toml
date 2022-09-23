@@ -3,7 +3,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.5.1"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:2.6.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/syft:1.20.0"
