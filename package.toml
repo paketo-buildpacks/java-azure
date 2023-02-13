@@ -36,10 +36,10 @@
   uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.6.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/liberty:3.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/liberty:3.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.4.0"
+  uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.5.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/spring-boot:5.22.1"
@@ -51,7 +51,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/jattach:1.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.11.0"
+  uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.11.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/datadog:3.5.0"
@@ -66,4 +66,4 @@
   uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.4.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.4.0"
