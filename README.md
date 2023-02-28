@@ -22,11 +22,13 @@ The Paketo Buildpack for Azure Java is a Cloud Native Buildpack with an order de
 * [`paketo-buildpacks/liberty`](https://github.com/paketo-buildpacks/liberty)
 * [`paketo-buildpacks/maven`](https://github.com/paketo-buildpacks/maven)
 * [`paketo-buildpacks/microsoft-openjdk`](https://github.com/paketo-buildpacks/microsoft-openjdk)
+* [`paketo-buildpacks/node-engine`](https://github.com/paketo-buildpacks/node-engine)
 * [`paketo-buildpacks/procfile`](https://github.com/paketo-buildpacks/procfile)
 * [`paketo-buildpacks/sbt`](https://github.com/paketo-buildpacks/sbt)
 * [`paketo-buildpacks/spring-boot`](https://github.com/paketo-buildpacks/spring-boot)
 * [`paketo-buildpacks/syft`](https://github.com/paketo-buildpacks/syft)
 * [`paketo-buildpacks/watchexec`](https://github.com/paketo-buildpacks/watchexec)
+* [`paketo-buildpacks/yarn`](https://github.com/paketo-buildpacks/yarn)
 
 ## License
 
