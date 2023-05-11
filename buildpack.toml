@@ -38,47 +38,47 @@ api = "0.7"
 
   [[order.group]]
     id = "paketo-buildpacks/microsoft-openjdk"
-    version = "3.1.1"
+    version = "3.1.2"
 
   [[order.group]]
     id = "paketo-buildpacks/yarn"
     optional = true
-    version = "1.1.6"
+    version = "1.1.7"
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
     optional = true
-    version = "1.5.0"
+    version = "1.5.1"
 
   [[order.group]]
     id = "paketo-buildpacks/syft"
     optional = true
-    version = "1.29.0"
+    version = "1.30.0"
 
   [[order.group]]
     id = "paketo-buildpacks/leiningen"
     optional = true
-    version = "4.6.0"
+    version = "4.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/clojure-tools"
     optional = true
-    version = "2.8.0"
+    version = "2.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/gradle"
     optional = true
-    version = "7.2.0"
+    version = "7.2.1"
 
   [[order.group]]
     id = "paketo-buildpacks/maven"
     optional = true
-    version = "6.15.0"
+    version = "6.15.1"
 
   [[order.group]]
     id = "paketo-buildpacks/sbt"
     optional = true
-    version = "6.11.0"
+    version = "6.11.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -93,27 +93,27 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/apache-tomcat"
     optional = true
-    version = "7.13.1"
+    version = "7.13.2"
 
   [[order.group]]
     id = "paketo-buildpacks/apache-tomee"
     optional = true
-    version = "1.7.0"
+    version = "1.7.1"
 
   [[order.group]]
     id = "paketo-buildpacks/liberty"
     optional = true
-    version = "3.7.0"
+    version = "3.7.1"
 
   [[order.group]]
     id = "paketo-buildpacks/dist-zip"
     optional = true
-    version = "5.6.0"
+    version = "5.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/spring-boot"
     optional = true
-    version = "5.24.0"
+    version = "5.25.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -123,27 +123,27 @@ api = "0.7"
   [[order.group]]
     id = "paketo-buildpacks/jattach"
     optional = true
-    version = "1.4.0"
+    version = "1.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/azure-application-insights"
     optional = true
-    version = "5.14.0"
+    version = "5.14.1"
 
   [[order.group]]
     id = "paketo-buildpacks/datadog"
     optional = true
-    version = "3.9.0"
+    version = "3.10.0"
 
   [[order.group]]
     id = "paketo-buildpacks/java-memory-assistant"
     optional = true
-    version = "1.4.0"
+    version = "1.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/encrypt-at-rest"
     optional = true
-    version = "4.5.0"
+    version = "4.5.1"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
