@@ -2,16 +2,16 @@
   uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.6.7"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:3.2.4"
+  uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:3.2.5"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/node-engine:3.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/node-engine:3.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/syft:1.42.0"
+  uri = "docker://gcr.io/paketo-buildpacks/syft:1.44.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.6.9"
@@ -20,7 +20,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.8.14"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/gradle:7.7.1"
+  uri = "docker://gcr.io/paketo-buildpacks/gradle:7.8.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/maven:6.15.12"
@@ -65,7 +65,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/java-memory-assistant:1.4.9"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/encrypt-at-rest:4.5.13"
+  uri = "docker://gcr.io/paketo-buildpacks/encrypt-at-rest:4.5.14"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.5.6"
