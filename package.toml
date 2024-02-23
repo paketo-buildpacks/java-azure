@@ -5,7 +5,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:3.2.6"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.3.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:3.2.0"
