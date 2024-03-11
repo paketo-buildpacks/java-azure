@@ -33,11 +33,11 @@ jobs:
                 set -euo pipefail
 
                 go install -ldflags="-s -w" github.com/paketo-buildpacks/libpak/cmd/create-package@latest
-            - uses: buildpacks/github-actions/setup-tools@v5.5.3
+            - uses: buildpacks/github-actions/setup-tools@v5.5.4
               with:
                 crane-version: 0.19.0
                 yj-version: 5.1.0
-            - uses: buildpacks/github-actions/setup-pack@v5.5.3
+            - uses: buildpacks/github-actions/setup-pack@v5.5.4
               with:
                 pack-version: 0.33.2
             - name: Enable pack Experimental
