@@ -56,7 +56,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/jattach:1.8.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.22.0"
+  uri = "docker://gcr.io/paketo-buildpacks/azure-application-insights:5.22.1"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/datadog:5.18.0"
@@ -74,9 +74,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.7.1"
 
 [[targets]]
-os = "linux"
-arch = "amd64"
+  arch = "amd64"
+  os = "linux"
 
 [[targets]]
-os = "linux"
-arch = "arm64"
+  arch = "arm64"
+  os = "linux"
