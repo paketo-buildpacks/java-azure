@@ -17,7 +17,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/leiningen:4.9.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.10.2"
+  uri = "docker://gcr.io/paketo-buildpacks/clojure-tools:2.11.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/gradle:7.13.1"
@@ -74,9 +74,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.7.1"
 
 [[targets]]
-os = "linux"
-arch = "amd64"
+  arch = "amd64"
+  os = "linux"
 
 [[targets]]
-os = "linux"
-arch = "arm64"
+  arch = "arm64"
+  os = "linux"
