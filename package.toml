@@ -41,7 +41,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/apache-tomee:1.10.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/liberty:4.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/liberty:4.2.3"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/dist-zip:5.8.2"
@@ -74,9 +74,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.7.1"
 
 [[targets]]
-os = "linux"
-arch = "amd64"
+  arch = "amd64"
+  os = "linux"
 
 [[targets]]
-os = "linux"
-arch = "arm64"
+  arch = "arm64"
+  os = "linux"
