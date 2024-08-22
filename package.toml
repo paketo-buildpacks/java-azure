@@ -5,7 +5,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/microsoft-openjdk:3.3.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.3.8"
+  uri = "docker://gcr.io/paketo-buildpacks/yarn:1.3.13"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/node-engine:4.1.4"
@@ -74,9 +74,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.7.1"
 
 [[targets]]
-os = "linux"
-arch = "amd64"
+  arch = "amd64"
+  os = "linux"
 
 [[targets]]
-os = "linux"
-arch = "arm64"
+  arch = "arm64"
+  os = "linux"
