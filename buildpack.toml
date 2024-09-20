@@ -16,7 +16,7 @@ api = "0.7"
 
 [buildpack]
   description = "A Cloud Native Buildpack with an order definition suitable for Java applications on Azure"
-  homepage = "https://paketo.io/docs/howto/java/"
+  homepage = "https://github.com/paketo-buildpacks/java-azure"
   id = "paketo-buildpacks/java-azure"
   keywords = ["java", "composite", "azure"]
   name = "Paketo Buildpack for Azure Java"
