@@ -89,7 +89,7 @@ jobs:
                 echo "version-label=${LABEL}" >> "$GITHUB_OUTPUT"
               env:
                 DEPENDENCY: gcr.io/paketo-buildpacks/jattach
-            - uses: peter-evans/create-pull-request@v6
+            - uses: peter-evans/create-pull-request@v7
               with:
                 author: ${{ secrets.JAVA_GITHUB_USERNAME }} <${{ secrets.JAVA_GITHUB_USERNAME }}@users.noreply.github.com>
                 body: Bumps [`gcr.io/paketo-buildpacks/jattach`](https://gcr.io/paketo-buildpacks/jattach) from [`${{ steps.package.outputs.old-version }}`](https://gcr.io/paketo-buildpacks/jattach:${{ steps.package.outputs.old-version }}) to [`${{ steps.package.outputs.new-version }}`](https://gcr.io/paketo-buildpacks/jattach:${{ steps.package.outputs.new-version }}).
