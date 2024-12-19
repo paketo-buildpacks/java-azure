@@ -23,7 +23,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/gradle:7.13.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/maven:6.17.4"
+  uri = "docker://gcr.io/paketo-buildpacks/maven:6.19.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/sbt:6.15.2"
@@ -74,9 +74,9 @@
   uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.7.1"
 
 [[targets]]
-os = "linux"
-arch = "amd64"
+  arch = "amd64"
+  os = "linux"
 
 [[targets]]
-os = "linux"
-arch = "arm64"
+  arch = "arm64"
+  os = "linux"
